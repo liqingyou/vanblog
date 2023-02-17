@@ -7,7 +7,7 @@
     "anlysis": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^12.2.5",
+    "@next/bundle-analyzer": "^12.3.4",
     "@types/lodash": "^4.14.184",
     "@types/markdown-navbar": "^1.4.0",
     "@types/mermaid": "^8.2.9",
