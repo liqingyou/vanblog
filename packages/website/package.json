@@ -34,7 +34,7 @@
     "remark-directive-rehype": "^0.4.0",
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
-    "sharp": "^0.30.7"
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/headroom.js": "^0.12.2",
