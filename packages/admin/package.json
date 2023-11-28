@@ -49,7 +49,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "@ant-design/plots": "^1.2.1",
+    "@ant-design/plots": "^2.0.0",
     "@ant-design/pro-card": "^1.19.0",
     "@ant-design/pro-components": "^1.1.6",
     "@ant-design/pro-descriptions": "^1.10.0",
@@ -91,7 +91,7 @@
     "react-helmet-async": "^1.2.0",
     "react-monaco-editor": "^0.50.1",
     "remark-directive": "^2.0.1",
-    "umi": "^3.5.0",
+    "umi": "^4.0.0",
     "unist-util-visit": "^4.1.1"
   },
   "devDependencies": {
