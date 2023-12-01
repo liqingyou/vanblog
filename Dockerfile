@@ -46,7 +46,7 @@ RUN yarn build
 
 
 #运行容器
-FROM node:alpine AS RUNNER
+FROM node:21.2-alpine3.18 AS RUNNER
 WORKDIR /app
 RUN  apk add --no-cache --update tzdata caddy nss-tools \
     && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
