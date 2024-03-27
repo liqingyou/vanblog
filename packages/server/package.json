@@ -26,7 +26,7 @@
     "@nestjs/jwt": "^8.0.1",
     "@nestjs/mongoose": "^9.0.3",
     "@nestjs/passport": "^8.2.2",
-    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/platform-express": "^10.3.6",
     "@nestjs/schedule": "^2.1.0",
     "@nestjs/swagger": "^5.2.1",
     "@types/line-reader": "^0.0.34",
