@@ -5,9 +5,13 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@waline/vercel": "1.31.7"
+    "@waline/vercel": "1.31.9",
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "start": "node node_modules/@waline/vercel/vanilla.js"
-  }
+    "start": "node node_modules/@waline/vercel/vanilla.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
