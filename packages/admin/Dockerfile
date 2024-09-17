@@ -9,7 +9,7 @@ RUN yarn global add umi
 RUN yarn
 RUN yarn build
 
-FROM nginx
+FROM nginx:1-bullseye
 WORKDIR /usr/share/nginx/html/
 RUN mkdir admin
 COPY --from=BUILD_IMAGE /app/dist/ ./admin/
