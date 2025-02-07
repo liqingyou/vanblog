@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - '@waline/vercel > think-mongo > think-helper > ms':
+        patched: '2025-02-07T04:17:20.047Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > think-mongo > think-helper > ms'
+    - '@waline/vercel > think-mongo > think-instance > think-helper > ms':
+        patched: '2025-02-07T04:17:20.047Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > think-mongo > think-instance > think-helper > ms'
